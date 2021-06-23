@@ -6,7 +6,7 @@ pipeline {
    
      stage('Install Dependencies') { 
         steps { 
-           sh 'top' 
+           sh 'echo "top"' 
         }
      }
      
